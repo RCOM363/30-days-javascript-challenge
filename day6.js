@@ -35,7 +35,7 @@ console.log(
 );
 
 console.log(
-  `reduce method: sum of array elements ${arr.reduce((sum, ele) => {
+  `reduce method: sum of array elements is ${arr.reduce((sum, ele) => {
     return sum + ele;
   }, 0)}`
 );
